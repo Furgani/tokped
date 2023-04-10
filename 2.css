@@ -751,7 +751,7 @@ border: solid 1px #03ac0e;
     .isi{
      flex-direction: column;
      width: 350px;
-     height: auto;
+     height: 1000px;
      margin: 0 0 0 0;
     }
     .isi .gambar{
@@ -888,8 +888,69 @@ border: solid 1px #03ac0e;
        margin-left: 50px;
        display: none;
     }
-    .judul .beli{
-        display: none;
+    .judul .beli h3{
+        display: flex;
+        flex-direction: row;
+        width: 360px;
+    }
+    .beli1{
+        display: flex;
+        flex-direction: row;
+        width: 360px;
+    }
+    .ada{
+        display: flex;
+        flex-direction: row;
+        width:360px ;
+    }
+    .ada .ada1{
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+    }
+    /* sisi kanan */
+    .judulkanan{
+        margin-left: -50px;
+        position: sticky;
+        display: block;
+        top: 93%;
+        height: 10vh;
+        bottom: 0px;
+    }
+    .protect{
+        height: 60px;
+        background: hsl(0, 0%, 100%);
+
+    }
+    .sisikanan .poin1{
+        border: 1px solid #03ac0e;
+        width: 250px;
+        height: 40px;
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: #03ac0e;
+        color: #f3f3f3;
+        cursor: pointer;
+    }
+    .sisikanan .poin1 p{
+        padding-top: 10px;
+        padding-left: 75px;
+        font-weight: bold;
+    }
+    .sisikanan .poin2{
+        border: 1px solid #03ac0e;
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #f3f3f3;
+        color: #03ac0e;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .sisikanan .poin2 p{
+        padding-top: 10px;
+        padding-left: 110px;
+        font-weight: bold;
     }
     .judul .ada{
         display: none;
@@ -902,6 +963,7 @@ border: solid 1px #03ac0e;
         margin-top: 30px;
         margin-left: -70px;
         margin-right: 0;
+        width: 520px;
     }
     .sisikanan{
         margin-left: -75px;

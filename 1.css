@@ -237,8 +237,8 @@ h2{
     color: black;
 }
 .isi .card1 .aaa{
-    width: 175px;
-    height: 175px;
+    width: 100%;
+    height: 100%;
 }
 .isi .card1:hover{
     transform :scale(1.05);
@@ -387,6 +387,126 @@ li {
     .halaman1 .judul{
         display: none;
     }
+    .isi {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .isi .card1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+        width: 135px;
+        height: auto;
+        border-radius: 5px;
+        border: 1px;
+        padding: 10px;
+        box-shadow: 1px 1px 3px 4px rgb(233, 233, 233);
+    }
+    .isi .card1 .kota1{
+        color: #929292;
+        font-size: 15px;
+        margin-top: 2px;
+    }
+    .isi .card1 nav ul li .k1{
+        color: black;
+    }
+    .isi .card1 .aaa{
+        width: 130px;
+        height: 130px;
+    }
+    
+    .isi .card2{
+        display: flex;
+        flex-direction: column;
+        width: 135px;
+        height: auto;
+        margin-left:10px ;
+        border-top: 10px;
+        border-radius: 5px;
+        border: 1px;
+        padding: 10px;
+        box-shadow: 1px 1px 3px 4px rgb(233, 233, 233);
+    
+    }
+    .isi .card2 .kota2{
+        color: #929292;
+        font-size: 15px;
+        margin-top: 2px;
+    }
+    .isi .card3{
+        display: flex;
+        flex-direction: column;
+        width: 135px;
+        height: auto;
+        margin-left: 25px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border: 1px;
+        padding: 10px;
+        box-shadow: 1px 1px 3px 4px rgb(233, 233, 233);
+    
+    }
+    .isi .card3 .kota3{
+        color: #929292;
+        font-size: 15px;
+        margin-top: 2px;
+    }
+    .isi .card4{
+        display: flex;
+        flex-direction: column;
+        width: 135px;
+        height: auto;
+        margin-left:10px ;
+        margin-top: 10px;
+        border-radius: 5px;
+        border: 1px;
+        padding: 10px;
+        box-shadow: 1px 1px 3px 4px rgb(233, 233, 233);
+    
+    }
+    .isi .card4 .kota4{
+        color: #929292;
+        font-size: 15px;
+        margin-top: 2px;
+    }
+    .isi .card5{
+        display: flex;
+        flex-direction: column;
+        width: 135px;
+        height: auto;
+        margin-left: 25px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border: 1px;
+        padding: 10px;
+        box-shadow: 1px 1px 3px 4px rgb(233, 233, 233);
+    
+    }
+    .isi .card5 .kota5{
+        color: #929292;
+        font-size: 15px;
+        margin-top: 2px;
+    }
+    .isi .card6{
+        display: flex;
+        flex-direction: column;
+        width: 135px;
+        height: auto;
+        margin-top: 10px;
+        margin-left:10px ;
+        border-radius: 5px;
+        border: 1px;
+        padding: 10px;
+        box-shadow: 1px 1px 3px 4px rgb(233, 233, 233);
+    
+    }
+    .isi .card6 .kota6{
+        color: #929292;
+        font-size: 15px;
+        margin-top: 2px;
+}
+}
+@media screen and (max-width: 900px)  {
     .isi {
         display: flex;
         flex-wrap: wrap;
