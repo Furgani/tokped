@@ -795,7 +795,7 @@ border: solid 1px #03ac0e;
         display: none;
     }
     .judul .kotak .kotak1{
-        margin-left: 6px;
+        margin-left:18px;
         width: 70px;
         height: 25px;
     }
@@ -822,7 +822,7 @@ border: solid 1px #03ac0e;
     .isiketerangan p{
         display: flex;
         flex-direction: row;
-        width: 300px;
+        width: 390px;
         margin-left: 10px;
     }
     .selengkapnya h4{
@@ -857,7 +857,7 @@ border: solid 1px #03ac0e;
     }
     .judul .logo .follow{
         margin-top: 40px;
-        margin-left: -15px; 
+        margin-left: 25px; 
     }
     .judul .logo .follow p{
         margin-right: 15px;
@@ -923,14 +923,14 @@ border: solid 1px #03ac0e;
         display: none;
     }
     .sisikanan .poin1{
-       margin-left: 150px;
+       margin-left: 170px;
        width: 140px;
     }
     .sisikanan .poin1 p{
         margin-left: -50px;
     }
     .sisikanan .poin2{
-        margin-left:300px;
+        margin-left:340px;
         width: 140px;
         margin-top: -43px;
     }
