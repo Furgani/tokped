@@ -720,7 +720,7 @@ border: solid 1px #03ac0e;
 
 /* responsive */
 
-@media screen and (max-width: 400px)  {
+@media screen and (max-width: 390px)  {
     .header {
         display: none;
     }
@@ -749,7 +749,7 @@ border: solid 1px #03ac0e;
         display: none;
     }
     .isi{
-     flex-direction: column;   
+     flex-direction: column;  
     }
     .isi .gambar{
         width:300px;
@@ -758,13 +758,13 @@ border: solid 1px #03ac0e;
         position: inherit;
     }
     .gambar img{
-        width: 375px;
+        width: 325px;
     }
     .isi .judul .judulisi h3{
         display: flex;
         flex-direction: row-reverse;
         font-weight: 100;
-        width: 375px;
+        width: 300px;
         margin-left: 15px;
         margin-top: -10px;
     }
@@ -895,8 +895,9 @@ border: solid 1px #03ac0e;
         display: none;
     }
     .sisikanan .judulkanan{
-        border: none;
+        /* border: none; */
         margin-top: 30px;
+        margin-left: -70px;
     }
     .sisikanan .gk{
         display: none;
@@ -911,14 +912,14 @@ border: solid 1px #03ac0e;
         display: none;
     }
     .sisikanan .poin1{
-       margin-left: -100px;
+       margin-left: -25px;
        width: 140px;
     }
     .sisikanan .poin1 p{
         margin-left: -50px;
     }
     .sisikanan .poin2{
-        margin-left:60px;
+        margin-left:130px;
         width: 140px;
         margin-top: -43px;
     }
