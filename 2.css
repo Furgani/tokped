@@ -720,7 +720,7 @@ border: solid 1px #03ac0e;
 
 /* responsive */
 
-@media screen and (max-width: 390px)  {
+@media screen and (max-width: 400px)  {
     .header {
         display: none;
     }
@@ -752,7 +752,7 @@ border: solid 1px #03ac0e;
      flex-direction: column;   
     }
     .isi .gambar{
-        width:375px;
+        width:300px;
         height: 70%;
         margin-left:0;
         position: inherit;
@@ -779,6 +779,9 @@ border: solid 1px #03ac0e;
         margin-left: 15px;
         margin-top: 10px;
     }
+    .keterangan .s3{
+        display: none;
+    }
     .judul .harga h4{
         margin-top: 100px;  
     }
@@ -789,7 +792,7 @@ border: solid 1px #03ac0e;
         display: none;
     }
     .judul .kotak .kotak1{
-        margin-left: 12px;
+        margin-left: 6px;
         width: 70px;
         height: 25px;
     }
@@ -816,7 +819,7 @@ border: solid 1px #03ac0e;
     .isiketerangan p{
         display: flex;
         flex-direction: row;
-        width: 340px;
+        width: 300px;
         margin-left: 10px;
     }
     .selengkapnya h4{
@@ -851,7 +854,7 @@ border: solid 1px #03ac0e;
     }
     .judul .logo .follow{
         margin-top: 40px;
-        margin-left: 20px; 
+        margin-left: -15px; 
     }
     .judul .logo .follow p{
         margin-right: 15px;
@@ -908,14 +911,14 @@ border: solid 1px #03ac0e;
         display: none;
     }
     .sisikanan .poin1{
-       margin-left: -70px;
+       margin-left: -100px;
        width: 140px;
     }
     .sisikanan .poin1 p{
         margin-left: -50px;
     }
     .sisikanan .poin2{
-        margin-left:100px;
+        margin-left:60px;
         width: 140px;
         margin-top: -43px;
     }
